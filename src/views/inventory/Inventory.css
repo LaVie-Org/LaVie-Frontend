@@ -36,7 +36,7 @@
     position: relative;
     text-align: center;
     padding-top: 5px;
-    border-top: solid;
+    border-top: solid rgb(153, 153, 153) 2px;
     width: 100%;
     height: 50px;
     font-weight: 900;
@@ -59,14 +59,96 @@
 }
 .inventoryContainer > .gameItemContainer > .itemOption {
     position: absolute;
-    top:-10px;
-    left: -8px;
+    top: -10px;
+    left: -4px;
     border-radius: 100%;
-
-    
     color: #ccc;
     font-weight: 900;
-    
     text-align: center;
     font-size: 22px;
+    z-index: 20;
 }
+.inventoryContainer > .gameItemContainer > .itemOption:hover {
+    color: rgb(151, 151, 151);
+    cursor: pointer;
+}
+.inventoryContainer > .gameItemContainer > div>  {
+    color: red;
+}
+.translateAnimation {
+    animation-name: translateView;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes translateView {
+    0% {
+        position: absolute;
+        min-width: 0%;
+        min-height: 0%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        color: transparent;
+        opacity: 0;
+    }
+    50% {
+        position: absolute;
+        min-width: 50%;
+        min-height: 50%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 50%;
+        color: transparent;
+        opacity: 0;
+    }
+
+    100% {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #161214;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 10px;
+        opacity: 1;
+    }
+  }
+.translateAnimation > *:first-child {
+    height: 100%;
+    width: 100%;
+
+}
+.translateAnimation > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.translateAnimation > div > .gameSettingInfo{
+    height: 100%;
+    width: 100%;
+    border-bottom: solid 0.5px #ccc;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 900;
+}
+.translateAnimation > div > .gameSettingInfo > * {
+    padding: 2px;
+}
+.translateAnimation > div > .gameSettingControls{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }

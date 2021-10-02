@@ -153,5 +153,19 @@
             "name":"Chad",
             "img":""
         }
+    ],
+    "crates":[
+        {
+            "tier": 1,
+            "link": "https://bafkreidjtkbzxdx7fdtqppjhoqfeqrnogokrwdmrr26nknlgtgx3nfslmq.ipfs.dweb.link/"
+        },
+        {
+            "tier": 2,
+            "link": "https://bafkreidoxnahsbhinyg4fluvtnwn5ggxxuflygf3xdlv7lxrlw7ipxzd5q.ipfs.dweb.link/"
+        },
+        {
+            "tier": 3,
+            "link": "https://bafkreihempy3kn6pekq3227h2v5rkgtwn737spl7iogkszkgl3yowmo664.ipfs.dweb.link/"
+        }
     ]
 }

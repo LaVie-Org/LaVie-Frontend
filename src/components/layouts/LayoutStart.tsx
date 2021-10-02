@@ -48,6 +48,7 @@ export default function LayoutStart(props: any){
                     exitModal={exitModal}
                     itemSelected={itemSelected}
                     setItemSelected={setItemSelected}
+                    GameAssetsData={props.GameAssetsData}
                 >
                     <Button title='START' onClick={() => selectAccount()}/>
                 </ModalLarge> : null

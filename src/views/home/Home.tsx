@@ -12,7 +12,7 @@ export default function Home(props:any){
             </div>
             <div className='menu-options'>
                 <ul>
-                    <Link to='/missions'><li>home</li></Link>
+                    <Link to='/home'><li>home</li></Link>
                     <Link to='/missions'><li>missions</li></Link>
                     <Link to='/inventory'><li>inventory</li></Link>
                     <Link to='/account'><li>account</li></Link>
