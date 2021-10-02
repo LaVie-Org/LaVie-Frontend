@@ -31,11 +31,6 @@ export default function Sider(props: any){
                     <label>account</label>
                 </li>
                 </Link>
-                <Link to="/pvp">
-                <li className='actionable'>
-                    <label>pvp</label>
-                </li>
-                </Link>
             </ul>
         </div>
     );

@@ -16,7 +16,6 @@ export default function Home(props:any){
                     <Link to='/missions'><li>missions</li></Link>
                     <Link to='/inventory'><li>inventory</li></Link>
                     <Link to='/account'><li>account</li></Link>
-                    <Link to='/pvp'><li>pvp</li></Link>
                 </ul>
             </div>
         </div>

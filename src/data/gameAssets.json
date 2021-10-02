@@ -33,7 +33,7 @@
         {
             "id":7,
             "name":"Chainsaw",
-            "link": "https://bafkreien4vjwtoimzsz6zsstulhtke2wx7r5c5vxj6ih7aenmz2c5xqoxu.ipfs.dweb.link/"
+            "link": "https://bafybeicksogwvs454wm3shjvjaf4u5v5wgcbpfgzxb62tpp32jp5cshnca.ipfs.dweb.link/"
         },
         {
             "id":8,
@@ -65,10 +65,31 @@
             "name":"Grenade Launcher",
             "link": "https://bafkreih5mhnrajkkxgjzzi76cwjdz6i4exmictvyqi36qzzdy63drh2ysu.ipfs.dweb.link/"
         },
+        
         {
-            "id":1,
-            "name":"Knife",
-            "link": "https://bafybeig5qplou3i6o4zkprsjj6gszqjjeqqjzu7tkbuluyco3toin3by5y.ipfs.dweb.link/"
+            "id":14,
+            "name":"Poison",
+            "link": "https://bafkreibnydrh4ko7nh3lf2cj5xoluwnlltqgsv2jmvqpxh2pdqg3z5amoi.ipfs.dweb.link/"
+        },
+        {
+            "id":15,
+            "name":"Motorcycle",
+            "link": "https://bafybeibtamv3cbhvwngptl6vvp64qs6iwg3dijpdrs4cbeypfqargm2fn4.ipfs.dweb.link/"
+        },
+        {
+            "id":16,
+            "name":"Safe House",
+            "link": "https://bafybeidqly3ye7opnmq2zu454wpb7le2z5f42d6r43gsc33n2kwb764cly.ipfs.dweb.link/"
+        },
+        {
+            "id":17,
+            "name":"C4",
+            "link": "https://bafybeicd6skqiybsbirsfxrmuihcfdrbeaeeyjpekh6a3dixfeq3fnnwnm.ipfs.dweb.link/"
+        },
+        {
+            "id":18,
+            "name":"Desert Eagle",
+            "link": "https://bafybeic5ol6kwcqqjz7sws5dqilq4kegl3ged6s67vpwartz5sschypbou.ipfs.dweb.link/"
         },
         {
             "id":19,
@@ -107,5 +128,30 @@
         }
     ],
     "main_logo":"https://bafkreigcb3orpnp4ag4p7ldwn5qcwwpg7vzyrqclur4bzvjdxmxrujpyme.ipfs.dweb.link/",
-    "main_logo_blk": "https://bafkreid3kfmvm62u6pl3c3npwgygqshgr6lgvml45fxl7blhkn7rx57lqm.ipfs.dweb.link/"
+    "main_logo_blk": "https://bafkreid3kfmvm62u6pl3c3npwgygqshgr6lgvml45fxl7blhkn7rx57lqm.ipfs.dweb.link/",
+    "tier_1_img": "",
+    "tier_2_img": "",
+    "tier_3_img": "",
+    "characters": [
+        {
+            "id": 1,
+            "name":"John",
+            "img":""
+        },
+        {
+            "id": 2,
+            "name":"Salvatore",
+            "img":""
+        },
+        {
+            "id": 3,
+            "name":"Shaniqua",
+            "img":""
+        },
+        {
+            "id": 4,
+            "name":"Chad",
+            "img":""
+        }
+    ]
 }
