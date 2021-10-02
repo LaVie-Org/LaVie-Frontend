@@ -1,0 +1,19 @@
+.buttonMain {
+    width: 100px;
+    min-height: 40px;
+    max-height: 50px;
+    font-size: 100%;
+    font-weight: 900;
+    font-style: bold;
+    background-color: white;
+    border-radius: 0px;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+
+}
+.buttonMain:hover{
+    cursor: pointer;
+    background-color: #FED766;
+}

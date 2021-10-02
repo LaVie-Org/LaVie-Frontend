@@ -1,0 +1,58 @@
+.containerHomeView {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.containerHomeView > div:first-child {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerHomeView > div:first-child > div {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border-bottom: solid 1px white;
+}
+.containerHomeView > div:first-child > div > img {
+    height: 200px;
+    width: 300px;
+}
+.containerHomeView > div:last-child {
+    height: 100%;
+    
+}
+.containerHomeView > .menu-options {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.containerHomeView > .menu-options > ul {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.containerHomeView > .menu-options > ul > a {
+    text-decoration: none;
+}
+.containerHomeView > .menu-options > ul > a > li {
+    font-size: 30px;
+    padding: 15px 0px 15px 0px;
+    color: #FED766;
+    font-weight: 900;
+}
+.containerHomeView > .menu-options > ul > a > li:hover {
+    cursor: pointer;
+    color: white;
+}

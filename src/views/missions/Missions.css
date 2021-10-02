@@ -1,0 +1,39 @@
+.missionContainer {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.missionsNav {
+    display: flex;
+    flex-direction: row;
+}
+.missionsNav > a  {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 5px 0px
+}
+.missionsNav > a > div {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    border-bottom: solid 7px transparent;
+}
+.missionsNav > a > div:hover {
+    cursor: pointer;
+    color: #FED766;
+    border-bottom: solid 7px #fed766;
+}
+.missionsNav > a > .activeNav {
+    border-bottom: solid 7px #fed766;
+}
+
+.missionContent {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}

@@ -1,0 +1,111 @@
+{
+    "items": [
+        {
+            "id":1,
+            "name":"Knife",
+            "link": "https://bafybeig5qplou3i6o4zkprsjj6gszqjjeqqjzu7tkbuluyco3toin3by5y.ipfs.dweb.link/"
+        },
+        {
+            "id":2,
+            "name":"Grenade",
+            "link": "https://bafkreihphflroe5muwene5kzhktqnspggnrzefawqim2bdqzos4iqdolqa.ipfs.dweb.link/"
+        },
+        {
+            "id":3,
+            "name":"Pump Action Shotgun",
+            "link": "https://bafybeifa3vwovtuq4qvjbllk3ffrcrsu2p7aulxquillivjv2ikhug5gs4.ipfs.dweb.link/"
+        },
+        {
+            "id":4,
+            "name":"M16A2",
+            "link": "https://bafkreihkkbokykynf4dbpt5mj4dzb4nt7bi6fcncubjtaqgpwstxtqlfoy.ipfs.dweb.link/"
+        },
+        {
+            "id":5,
+            "name":"Brass Knuckles",
+            "link": "https://bafybeiei3yv5a65ex5cew3aa5uf5h6fmvfevmmev5twyzbsmxvuzt6hhdq.ipfs.dweb.link/"
+        },
+        {
+            "id":6,
+            "name":"Gas Can",
+            "link": "https://bafkreien4vjwtoimzsz6zsstulhtke2wx7r5c5vxj6ih7aenmz2c5xqoxu.ipfs.dweb.link/"
+        },
+        {
+            "id":7,
+            "name":"Chainsaw",
+            "link": "https://bafkreien4vjwtoimzsz6zsstulhtke2wx7r5c5vxj6ih7aenmz2c5xqoxu.ipfs.dweb.link/"
+        },
+        {
+            "id":8,
+            "name":"Machete",
+            "link": "https://bafybeicdkn46biragpe2mtp5wbyos57c7muq5ono2cn4mecxhhp3qcde24.ipfs.dweb.link/"
+        },
+        {
+            "id":9,
+            "name":"Bat",
+            "link": "https://bafybeiebabatbx7q7s2faahmhmnle7jx3txu4zr2teqm6q6tqchppdhymi.ipfs.dweb.link/"
+        },
+        {
+            "id":10,
+            "name":"M1911",
+            "link": "https://bafybeig3dnugmur7wzkbw6omwslgxoja2qm72dlzzybitsg77dqq4gjvza.ipfs.dweb.link/"
+        },
+        {
+            "id":11,
+            "name":"Armored Car",
+            "link": "https://bafybeiewe5hbluo3xakt6ausfrsjut6sujozwleyxliqrzhialvdlqeoeu.ipfs.dweb.link/"
+        },
+        {
+            "id":12,
+            "name":"Body Armor",
+            "link": "https://bafybeidloyloc5k4uppzgulp4a34ouyxp5l4cv3wh7cpu3wfjbrwo6r424.ipfs.dweb.link/"
+        },
+        {
+            "id":13,
+            "name":"Grenade Launcher",
+            "link": "https://bafkreih5mhnrajkkxgjzzi76cwjdz6i4exmictvyqi36qzzdy63drh2ysu.ipfs.dweb.link/"
+        },
+        {
+            "id":1,
+            "name":"Knife",
+            "link": "https://bafybeig5qplou3i6o4zkprsjj6gszqjjeqqjzu7tkbuluyco3toin3by5y.ipfs.dweb.link/"
+        },
+        {
+            "id":19,
+            "name":"Balistic Knife",
+            "link": "https://bafkreidq5rmg3ev4tr5umupuonnxrngjelwk5bcqxgkdswfn2tneorsi2a.ipfs.dweb.link/"
+        },
+        {
+            "id":20,
+            "name":"Barbwire Bat",
+            "link": "https://bafybeigfvft3ombyc43j3acloyhpfhwj4j4wh2lu5vwjtms2rop5ehqhwq.ipfs.dweb.link/"
+        },
+        {
+            "id":21,
+            "name":"Katana",
+            "link": "https://bafkreiamclqwjkj32jseskne3kmci4dmjjnmjiw42afx3bf6z5incydqou.ipfs.dweb.link/"
+        },
+        {
+            "id":22,
+            "name":"Gold Grenade",
+            "link": "https://bafkreibvdac6uxotikruedzzkeio4azluea7piz3qkbwijnypnirxcqqui.ipfs.dweb.link/"
+        },
+        {
+            "id":23,
+            "name":"SPA Shotgun",
+            "link": "https://bafkreifsa7twibgxakpamfil4jjpil2tfjjmx5yfzemfp2j3naesl2hpqq.ipfs.dweb.link/"
+        },
+        {
+            "id":24,
+            "name":"Speed Boat",
+            "link": "https://bafybeigxrs3un77qpoxxjpsbcp7iagj2hc4x6zqkwhwfprnzrvrxls6pyy.ipfs.dweb.link/"
+        },
+        {
+            "id":25,
+            "name":"Lambo",
+            "link": "https://bafkreidpnpbalhguybydmi5rlkq6bev4qsearpyz3o7kdjapjnw365xz5q.ipfs.dweb.link/"
+        }
+    ],
+    "main_logo":"https://bafkreigcb3orpnp4ag4p7ldwn5qcwwpg7vzyrqclur4bzvjdxmxrujpyme.ipfs.dweb.link/",
+    "main_logo_blk": "https://bafkreid3kfmvm62u6pl3c3npwgygqshgr6lgvml45fxl7blhkn7rx57lqm.ipfs.dweb.link/"
+}

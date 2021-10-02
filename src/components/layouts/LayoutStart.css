@@ -1,0 +1,65 @@
+.layoutStartContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    background-color: #161214;
+    overflow: hidden;
+}
+.lsc-content {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lsc-content > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lsc-content > ul > li {
+    padding: 5px 0px 5px 0px;
+}
+
+.lsc-content > ul > li > .cover-container {
+    position: relative;
+}
+.lsc-content > ul > li > .cover-container > .background-cover {
+    height: 100%;
+    width: 100%;
+    
+}
+.lsc-content > ul > li > .cover-container > .background-cover > img {
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+}
+.lsc-content > ul > li > .cover-container > .forward-logo {
+    position: absolute;
+    bottom: -120px;
+    right: 0;
+}
+.lsc-content > ul > li > .cover-container > .forward-logo > .content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.lsc-content > ul > li > .cover-container > .forward-logo > .content > img {
+    height: 300px;
+    width: 500px;
+}
+.lsc-content > ul > li > .cover-container > .forward-logo > .content > div {
+    position: absolute;
+    bottom: 10px;
+}
+
+

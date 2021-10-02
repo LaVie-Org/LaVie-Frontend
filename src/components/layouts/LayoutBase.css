@@ -1,0 +1,23 @@
+.layoutbase-container {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.layoutbase-container > .container-col:first-child {
+    height: 100%;
+    min-width: 150px;
+    max-width: 150px;
+}
+.layoutbase-container > .container-col {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.layoutbase-container > .container-col > .containerContent {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,59 @@
+.inventoryContainer {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+.inventoryContainer > .gameItemContainer {
+    margin: 10px;
+    position: relative;
+    border: solid 0.5px #FED766;
+    box-shadow: 2px 2px 5px 5px rgb(44, 43, 43);
+    border-radius: 10px;
+    height: 230px;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.inventoryContainer > .gameItemContainer > .itemImage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+    
+}
+.inventoryContainer > .gameItemContainer > .itemImage > img {
+    height: 100%;
+    width: 100%;
+}
+.inventoryContainer > .gameItemContainer > span {
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    border-top: solid;
+    width: 100%;
+    height: 50px;
+    font-weight: 900;
+}
+.inventoryContainer > .gameItemContainer > .itemCount {
+    position: absolute;
+    top:-15px;
+    right: -10px;
+    border-radius: 100%;
+    width: auto;
+    height: auto;
+    min-height: 20px;
+    min-width: 20px;
+    background-color: #FED766;
+    color: #0b090a;
+    font-weight: 900;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}

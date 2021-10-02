@@ -1,0 +1,79 @@
+.sider-container {
+    position: relative;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+.sider-container > .logo {
+    height: 80px;
+}
+.sider-container > .logo > img {
+    height: 100%;
+    width: 100%;
+}
+.sider-container > .logo > img:hover {
+    cursor: pointer;
+}
+.sider-container > ul {
+    border-right: solid 0.5px #757575;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.sider-container > ul > a {
+    text-decoration: none;
+    color: white;
+}
+.sider-container > ul > a > li {
+    border: none;
+    border-radius: 2px;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.sider-container > ul > a >li > label {
+    cursor: pointer;
+}
+.sider-container > ul > a >.actionable > label {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.sider-container > ul > a >.actionable:hover {
+    border: none;
+    color: #FED766;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #C1292E;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: all;
+}
+
+.sider-container > ul > a> .sider-display {
+    border: none;
+    cursor: text;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+} 
+.sider-container > ul > a >.sider-display > * {
+    font-size: 22px;
+    padding: 5px 0px 5px 0px;
+    max-width: 50px;
+    min-width: 50px;
+    text-align: center;   
+}
+.sider-container > ul > a> .sider-display > *:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 100%;
+}

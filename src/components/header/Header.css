@@ -1,0 +1,32 @@
+.headerContainer {
+    height: 50px;
+    border-bottom: solid 0.5px #757575;
+    padding: 10px;
+    
+}
+.headerContainer > .statsUiDisplayContainer {
+    height: 100%;
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.headerContainer > .statsUiDisplayContainer > .statsUiDisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: 200px;
+}
+.headerContainer > .statsUiDisplayContainer > .statsUiDisplay > div:first-child {
+    padding-right: 10px;
+    font-size: 30px;
+}
+.headerContainer > .statsUiDisplayContainer > .statsUiDisplay > div:last-child {
+    
+    font-weight: 900;
+}
