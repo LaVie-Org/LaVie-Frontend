@@ -1,99 +1,6 @@
 import React from "react";
 import './Grind.css';
-
-
-const dt = [
-    {
-        "mission_id": 1,
-        "mission_name": "Mug Someone",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": [2,4,5]
-    },
-    {
-        "mission_id": 2,
-        "mission_name": "Shoplift",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 3,
-        "mission_name": "Burglary",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
-        "mission_name": "Protect Escorts",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
-        "mission_name": "Rob A Car",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
-        "mission_name": "Burglary",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
-        "mission_name": "Store Robbery",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
-        "mission_name": "Kidnap",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
-        "mission_name": "Kill an Op",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
-        "mission_name": "Rob A Bank",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    }
-]
+import GrindMissions from '../../data/missionsGrind.json';
 
 function MissionItem(props:any){
     return(
@@ -124,7 +31,7 @@ function MissionItem(props:any){
 export default function Grind(props: any){
     return(
         <div className='missionGrindContainer fadeInAnimation'>
-            {dt.map((x) =>  <MissionItem data={x}/>)}
+            {GrindMissions.map((x) =>  <MissionItem data={x}/>)}
         </div>
     )
 }

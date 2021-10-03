@@ -61,5 +61,38 @@
     position: absolute;
     bottom: 10px;
 }
+.polygonIndicator {
+    position: absolute;
+    width: 120px;
+    bottom: 12px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+}
+.polygonIndicator > label {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: white;
+    padding: 0;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+.polygonIndicator > div {
+
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    background-color: #8247e5;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.polygonIndicator > div > img {
+    height: 30px;
+    width: 30px;
+}
 
 

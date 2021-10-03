@@ -28,10 +28,10 @@ export default function Missions(props: any){
                 <div className='missionContent'>
                 <Switch>
                     <Route exact path={`${match.url}`}>
-                        <Grind />
+                        <Grind data={props.GameAssetsData}/>
                     </Route>
                     <Route path={`${match.url}/story`}>
-                        <Story />
+                        <Story data={props.GameAssetsData}/>
                     </Route>
                 </Switch>
                 </div>

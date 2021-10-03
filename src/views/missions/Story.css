@@ -45,6 +45,16 @@
     display: flex;
     align-items: center;
 }
+.storyContainer > .storyItem > .storyItemHeader > span {
+    border: solid;
+    background-color: #FED766;
+    color: black;
+    cursor:pointer;
+    font-weight: 900;
+}
+.storyContainer > .storyItem > .storyItemHeader > span:hover {
+    background-color: #c0a44f;
+}
 .storyContainer > .storyItem > .storyItemCollapsable {
     border-radius: 10px;
     color: white;
@@ -102,6 +112,10 @@
 }
 .storyContainer > .storyItem > .storyItemCollapsable > ul > li > div {
     width: 150px;
+}
+.storyContainer > .storyItem > .storyItemCollapsable > ul > li > div > img {
+    width: 40px;
+    height: 40px;
 }
 .storyContainer > .storyItem > .storyItemCollapsable > ul > li > button {
     padding: 0;

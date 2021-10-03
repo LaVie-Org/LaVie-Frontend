@@ -11,6 +11,7 @@ export default function LayoutStart(props: any){
     function exitModal(){
         setItemSelected(0);
         setPopModal(0);
+        props.setNewAccount(0);
     }
     function selectAccount(){
         if(itemSelected > 0){
@@ -30,20 +31,21 @@ export default function LayoutStart(props: any){
                             <div className='forward-logo'>
                                 <div className='content'>
                                     <img src={props.GameAssetsData.main_logo} />
-                                    <div>
-                                        <Button title='PLAY' onClick={() => setPopModal(1)}></Button>
+                                    <div style={{
+                                        display: "flex",
+                                        flexDirection: "column",
+                                        alignItems: 'center'
+                                    }}>
+                                        <Button title='PLAY' onClick={props.ConnectWallet}></Button>
                                     </div>
                                 </div>
-
-                                
                             </div>
-                            
                         </div>
                     </li>
                 </ul>
             </div>
             {
-                popModal == 1 ?
+                props.newAccount == 1 ?
                 <ModalLarge 
                     exitModal={exitModal}
                     itemSelected={itemSelected}
@@ -53,6 +55,13 @@ export default function LayoutStart(props: any){
                     <Button title='START' onClick={() => selectAccount()}/>
                 </ModalLarge> : null
             }
+            <div className='polygonIndicator'>
+                <label>Only on</label>
+                <div>
+                    <img src='https://bafkreicizdfuxlhvme4gcue5cqwx6esccgmxz7ctqkkdiuuecuuczq4kea.ipfs.dweb.link/' />
+                    <label>polygon</label>
+                </div>
+            </div>
         </div>
     )
 }

@@ -3,11 +3,19 @@ import './Account.css';
 import Button from '../../components/buttons/Button';
 
 export default function Account(props: any){
+    let[userAddress] = React.useState(props.web3.account);
+    let[nftId] = React.useState(props.nftId);
+
+    
     return(
         <div className='fadeInAnimation accountContainer'>
             <div className='accountContainerId'>
                 <div className='acIcon'><i className="fas fa-user-circle"></i></div>
-                <div className='acAddress'>0x000000000000000000000000000000</div>
+                <div className='acAddress'>{userAddress}</div>
+            </div>
+            <div className='accountContainerRow'>
+                <label>NFT ID:</label>
+                <span>{nftId}</span>
             </div>
             <div className='accountContainerRow'>
                 <label>Total Staked:</label>
