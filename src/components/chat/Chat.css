@@ -1,0 +1,55 @@
+.chatMsgContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    height: 300px;
+    width: 400px;   
+    z-index: 2;
+    background-color: #161214;
+    border: solid 0.5px black;
+    box-shadow: 5px -2px 5px 0px black;
+}
+.chatMsgContainer > div {
+    position: relative;
+    height: 100%;
+    
+}
+.chatMsgContainer > div > .elemList {
+    height: 100%;
+    overflow: scroll;
+
+}
+.chatMsgContainer > div > .elemList > .chatElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    border-bottom:black 0.5px solid;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.chatMsgContainer > div > .elemList > .chatElement:last-child {
+    padding-bottom: 40px;
+}
+.chatMsgContainer > div> .elemList > .chatElement > label {
+    font-size: 12px;
+}
+.chatMsgContainer > div> .chatInputBox {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.chatMsgContainer > div> .chatInputBox > input {
+    width: 90%;
+    font-size: 20px;
+}
+.chatMsgContainer > div> .chatInputBox > button {
+    width: 10%;
+} 
+.chatMsgContainer > div> .chatInputBox > button:hover {
+    cursor: pointer;
+}

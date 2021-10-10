@@ -1,0 +1,107 @@
+.marketContainer{
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.marketContainer > .marketList {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.marketContainer > .marketList > .inGameMarket {
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid #ccc 0.2px;
+}
+.marketContainer > .marketList > .inGameMarket > * {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.marketContainer > .marketList > .inGameMarket > .igmLeft > i {
+    font-size: 80px;
+    padding-bottom: 10px;
+    color: #FED766;
+    
+}
+.marketContainer > .marketList > .inGameMarket > .igmLeft > label {
+    font-size: 30px;
+    font-weight: bold;
+    color: #618B25;
+}
+.marketContainer > .marketList > .inGameMarket > .igmRight > label {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+.marketContainer > .marketList > .t3pMarket {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.marketContainer > .marketList > .t3pMarket > label {
+    font-size: 30px;
+    font-weight: bold;
+    
+    color: #ccc;
+    padding: 10px;
+}
+.marketContainer > .modalContainer {
+    box-sizing: border-box;
+    
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.marketContainer > .modalContainer > .modalSmallContainer {
+    height: 450px;
+    width: 300px;
+    background-color: #161214;
+    border: solid 0.5px black;
+    box-shadow: 5px -2px 5px 0px black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.marketContainer > .modalContainer > .modalSmallContainer > h1 {
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+}
+.marketContainer > .modalContainer > .modalSmallContainer > hr {
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    height: 5px;
+    background-color:#FED766
+}
+.marketContainer > .modalContainer > .modalSmallContainer > span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+.marketContainer > .modalContainer > .modalSmallContainer > div > img {
+    height: 200px;
+    width: 100%;
+    
+} 

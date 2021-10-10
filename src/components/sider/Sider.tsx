@@ -3,6 +3,7 @@ import {
 
     Link
   } from "react-router-dom";
+  import Button from '../buttons/Button';
 
 export default function Sider(props: any){
     return(
@@ -31,6 +32,19 @@ export default function Sider(props: any){
                     <label>account</label>
                 </li>
                 </Link>
+                <Link to="/market">
+                <li className='actionable'>
+                    <label>market</label>
+                </li>
+                </Link>
+                <div style={{
+                    
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                    <Button title='SAVE PROGRESS' minHeight='50px' onClick={() => props.setSaveProgress(1)}/>
+                </div>
+                
             </ul>
         </div>
     );

@@ -37,7 +37,7 @@ export default function Level(props: any){
     return(
         <div style={barContainer}>
             <div id='end' style={col}>
-                <span style={{'color':'#FED677', 'paddingLeft': '10px', 'paddingRight': '10px', 'textAlign': 'center'}}>Level: {props.endLv}</span>
+                <span style={{'color':'#FED677', 'paddingLeft': '10px', 'paddingRight': '10px', 'textAlign': 'center'}}>Level: {props.currLv}</span>
             </div>
             <div style={col}>
                 <div id='bar' style={bar}>

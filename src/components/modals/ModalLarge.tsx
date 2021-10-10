@@ -15,7 +15,11 @@ export default function ModalLarge(props: any){
                         <img src={props.GameAssetsData.crates[0].link}></img>
                     </div>
                     <div className='mmsTitle'>
-                        <h1><span className='labelEffect'>Stake:</span>$0.00</h1>
+                        <h1>
+                            <span className='labelEffect'>Stake:</span>
+                            <img src='https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png' height='30' width='30' />
+                            <label style={{paddingLeft: '5px'}}>0</label>
+                        </h1>
                     </div>
                     <div className='mmsInfo'>
                         <ul>
@@ -28,11 +32,16 @@ export default function ModalLarge(props: any){
                         <img src={props.GameAssetsData.crates[1].link}></img>
                     </div>
                     <div className='mmsTitle'>
-                        <h1><span className='labelEffect'>Stake:</span>$50.00</h1>
+                        <h1>
+                            <span className='labelEffect'>Stake:</span>
+                            <img src='https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png' height='30' width='30' />
+                            <label style={{paddingLeft: '5px'}}>100</label>
+                        </h1>
                     </div>
                     <div className='mmsInfo'>
                         <ul>
-                            <li><span className='labelEffect'>Duration:</span> 2 Months</li>
+                            <li><span className='labelEffect'>Duration:</span> 1 Month</li>
+                            <li><span className='labelEffect'>Daily LaVx Flow:</span> 10 X 100</li>
                             <li><span className='labelEffect'>Equipment:</span> 2 Generic Items</li>
                         </ul>
                     </div>
@@ -42,13 +51,17 @@ export default function ModalLarge(props: any){
                         <img src={props.GameAssetsData.crates[2].link}></img>
                     </div>
                     <div className='mmsTitle'>
-                        <h1><span className='labelEffect'>Stake:</span>$100.00</h1>
+                        <h1>
+                            <span className='labelEffect'>Stake:</span>
+                            <img src='https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png' height='30' width='30' />
+                            <label style={{paddingLeft: '5px'}}>200</label>
+                        </h1>
                     </div>
                     <div className='mmsInfo'>
                         <ul>
-                            <li><span className='labelEffect'>Duration:</span> 4 Months</li>
+                            <li><span className='labelEffect'>Duration:</span> 2 Months</li>
+                            <li><span className='labelEffect'>Daily LaVx Flow:</span> 10 X 200</li>
                             <li><span className='labelEffect'>Equipment:</span> 3 Generic Items</li>
-                            <li><span className='labelEffect'>Rare:</span> 1 Item</li>
                         </ul>
                     </div>
                 </div>
@@ -58,3 +71,17 @@ export default function ModalLarge(props: any){
      </div>
     );
 }
+
+/*
+                            <li className='selectbox'>
+                                <label>Stake Platform: </label>
+                                <select onChange={(e) => props.setPlatform(e.target.value) } style={{
+                                    textAlign: 'center',
+                                    
+                                }}>
+                                    <option value='2'>Compound</option>
+                                    <option value='1'>88mph</option>
+                                    
+                                </select>
+                            </li>
+*/ 

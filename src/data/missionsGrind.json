@@ -5,88 +5,79 @@
         "health_req": 1,
         "energy_req": 1,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": [2,4,5]
+        "cash_gain": 100.00,
+        "equipment": []
     },
     {
         "mission_id": 2,
         "mission_name": "Shoplift",
         "health_req": 1,
-        "energy_req": 1,
+        "energy_req": 2,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
+        "cash_gain": 150.00,
         "equipment": []
     },
     {
         "mission_id": 3,
         "mission_name": "Burglary",
-        "health_req": 1,
-        "energy_req": 1,
+        "health_req": 2,
+        "energy_req": 2,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
+        "cash_gain": 200.00,
+        "equipment": [1]
     },
     {
         "mission_id": 4,
         "mission_name": "Protect Escorts",
-        "health_req": 1,
-        "energy_req": 1,
+        "health_req": 2,
+        "energy_req": 3,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
+        "cash_gain": 250.00,
+        "equipment": [1, 5, 9]
     },
     {
-        "mission_id": 4,
+        "mission_id": 5,
         "mission_name": "Rob A Car",
-        "health_req": 1,
-        "energy_req": 1,
+        "health_req": 3,
+        "energy_req": 2,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
+        "cash_gain": 300.00,
+        "equipment": [1, 5, 9]
     },
     {
-        "mission_id": 4,
-        "mission_name": "Burglary",
-        "health_req": 1,
-        "energy_req": 1,
-        "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
-    },
-    {
-        "mission_id": 4,
+        "mission_id": 6,
         "mission_name": "Store Robbery",
-        "health_req": 1,
-        "energy_req": 1,
+        "health_req": 3,
+        "energy_req": 3,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
+        "cash_gain": 400.00,
+        "equipment": [3, 11]
     },
     {
-        "mission_id": 4,
+        "mission_id": 7,
         "mission_name": "Kidnap",
-        "health_req": 1,
-        "energy_req": 1,
+        "health_req": 2,
+        "energy_req": 4,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
+        "cash_gain": 450.00,
+        "equipment": [4, 15, 16]
     },
     {
-        "mission_id": 4,
+        "mission_id": 8,
         "mission_name": "Kill an Op",
-        "health_req": 1,
-        "energy_req": 1,
+        "health_req": 4,
+        "energy_req": 3,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
+        "cash_gain": 500.00,
+        "equipment": [10, 12, 3]
     },
     {
-        "mission_id": 4,
+        "mission_id": 9,
         "mission_name": "Rob A Bank",
-        "health_req": 1,
-        "energy_req": 1,
+        "health_req": 3,
+        "energy_req": 5,
         "stamina_req": 0,
-        "cash_gain": 5000.00,
-        "equipment": []
+        "cash_gain": 550.00,
+        "equipment": [11, 12, 13]
     }
 ]

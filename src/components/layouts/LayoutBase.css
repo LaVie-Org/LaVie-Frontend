@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     height: 100%;
+    width: 100%;
 }
 .layoutbase-container > .container-col:first-child {
     height: 100%;
@@ -20,4 +21,69 @@
 .layoutbase-container > .container-col > .containerContent {
     width: 100%;
     height: 100%;
+}
+.billboardIndicator {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #C1292E;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    min-height: 30px;
+    display: flex;
+}
+.billboardIndicator > label:hover{
+    cursor: pointer;
+    background-color: #7a191c;
+}
+.billboardIndicator > label {
+    padding: 10px;
+}
+
+
+.ChatterBox {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.ChatterBox > div {
+    position: relative;
+    color: black;
+    background-color: #FED766;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 45px;
+    box-shadow: 1px -1px 1px 1px black;
+}
+.ChatterBox > div > label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.ChatterBox  > div> i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30px;
+    font-size: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: white;
+    color: black;
+    border-right: solid 0.5px;
+    border-radius: 0px;
+}
+.ChatterBox> div:hover {
+    cursor: pointer;
+    background-color: #7a191c;
+    color: white;
 }

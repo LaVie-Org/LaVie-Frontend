@@ -94,5 +94,30 @@
     height: 30px;
     width: 30px;
 }
-
-
+.selectbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.selectbox > label {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.selectbox > select {
+    font-size: 20px;
+    width: 150px;  
+    background-color: #fed766;
+    color:black;
+    font-weight: bold;
+}
+.selectbox > select > option {
+    text-align: center;
+    font-weight: bold;
+    
+}

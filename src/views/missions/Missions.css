@@ -1,4 +1,5 @@
 .missionContainer {
+    position: relative;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -37,3 +38,42 @@
     width: 100%;
     overflow-y: scroll;
 }
+.missionContainer > .missionsLock {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+.missionContainer > .missionsLock >.missionsLockContainer {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.missionContainer > .missionsLock >.missionsLockContainer > .missionLockModal {
+    height: 170px;
+    width: 400px;
+    background-color: #161214;
+    border: solid 0.5px black;
+    box-shadow: 5px -2px 5px 0px black;
+}
+.missionContainer > .missionsLock >.missionsLockContainer > .missionLockModal > h2{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+}
+.missionContainer > .missionsLock >.missionsLockContainer > .missionLockModal > hr {
+    border: none;
+    height: 2px;
+    background-color: #FED766;
+}
+.missionContainer > .missionsLock >.missionsLockContainer > .missionLockModal > p {
+    color: #ccc;
+    padding: 0px 10px 0px 10px;
+} 

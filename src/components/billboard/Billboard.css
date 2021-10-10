@@ -1,0 +1,142 @@
+.billboardContainer {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.billboardContainer  > .billboardPopUp {
+    border: solid 0.5px black;
+    box-shadow: 5px -2px 5px 0px black;
+    position: relative;
+    height: 420px;
+    width: 800px;
+    background-color: #161214;
+    display: flex;
+    flex-direction: column;
+}
+.billboardContainer  > .billboardPopUp > .billboardHeader {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+.billboardContainer  > .billboardPopUp > .billboardHeader > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+}
+.billboardContainer  > .billboardPopUp > .billboardHeader > ul > li {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.billboardContainer  > .billboardPopUp > .billboard {
+    width: 100%;
+    z-index: 10;
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate > .billboardModal {
+    position: relative;
+    border: solid 0.5px black;
+    box-shadow: 5px -2px 5px 0px black;
+    height: 95%;
+    width: 40%;
+    background-color: #161214;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate > .billboardModal > .billboardModalExit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate > .billboardModal > .billboardModalExit:hover {
+    color: #FED766;
+    cursor: pointer;
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate > .billboardModal > .billboardModalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate > .billboardModal > .billboardModalContent > div {
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate > .billboardModal > .billboardModalContent > div > label {
+    padding-bottom: 5px;
+    color: #FED766;
+    font-weight: bold;
+}
+.billboardContainer  > .billboardPopUp > .billboardUpdate > .billboardModal > .billboardModalContent > div > input {
+    height: 20px;
+}
+.billboardContainer > .billboardPopUp > .billboardModalExit {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 30px;
+}
+.billboardContainer  > .billboardPopUp > .billboardModalExit:hover {
+    color: #FED766;
+    cursor: pointer;
+}
+.billboardContainer  > .billboardPopUp > .billboardHistory {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+}
+.billboardContainer  > .billboardPopUp > .billboardHistory > .billboardModal {
+    position: relative;
+    border: solid 0.5px black;
+    box-shadow: 5px -2px 5px 0px black;
+    height: 80%;
+    width: 60%;
+    background-color: #161214;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.billboardContainer  > .billboardPopUp > .billboardHistory > .billboardModal > .billboardModalExit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.billboardContainer  > .billboardPopUp > .billboardHistory > .billboardModal > .billboardModalExit:hover {
+    color: #FED766;
+    cursor: pointer;
+}

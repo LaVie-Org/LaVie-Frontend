@@ -7,6 +7,7 @@ import ModalLarge from '../modals/ModalLarge';
 export default function LayoutStart(props: any){
     let [popModal, setPopModal] = React.useState(0);
     let [itemSelected, setItemSelected] = React.useState(0);
+    let [platformSelected, setPlatform] = React.useState(2);
 
     function exitModal(){
         setItemSelected(0);
@@ -15,7 +16,8 @@ export default function LayoutStart(props: any){
     }
     function selectAccount(){
         if(itemSelected > 0){
-            props.setAccountSelected(itemSelected)
+            props.setAccountSelected(itemSelected);
+            exitModal();
         }
     }
     return(
@@ -26,7 +28,7 @@ export default function LayoutStart(props: any){
                     <li>
                         <div className='cover-container'>
                             <div className='background-cover'>
-                                <img src='https://tcrf.net/images/thumb/0/0b/Grand_Theft_Auto-_San_Andreas-title.png/320px-Grand_Theft_Auto-_San_Andreas-title.png' />
+                                <img src='https://bafkreiddn6exihkgoqjswzpbllk64bx35miu4k3cv7fpzzffemykn5ywly.ipfs.dweb.link/' />
                             </div>
                             <div className='forward-logo'>
                                 <div className='content'>
@@ -49,19 +51,27 @@ export default function LayoutStart(props: any){
                 <ModalLarge 
                     exitModal={exitModal}
                     itemSelected={itemSelected}
+                    setPlatform={setPlatform}
                     setItemSelected={setItemSelected}
                     GameAssetsData={props.GameAssetsData}
                 >
-                    <Button title='START' onClick={() => selectAccount()}/>
+                    <div className='selectbox'>
+                        <label>Stake Platform: </label>
+                        <select disabled={itemSelected == 0 || itemSelected == 1} onChange={(e:any) => props.setPlatform(e.target.value) }>
+                            <option value='2'>Compound</option>
+                            <option value='1'>88mph</option>
+                        </select>
+                    </div>
+                    <Button disabled={itemSelected == 0 ? true : false} title='START' onClick={() => selectAccount()}/>
                 </ModalLarge> : null
             }
-            <div className='polygonIndicator'>
+            {/*<div className='polygonIndicator'>
                 <label>Only on</label>
                 <div>
                     <img src='https://bafkreicizdfuxlhvme4gcue5cqwx6esccgmxz7ctqkkdiuuecuuczq4kea.ipfs.dweb.link/' />
                     <label>polygon</label>
                 </div>
-            </div>
+        </div>*/}
         </div>
     )
 }

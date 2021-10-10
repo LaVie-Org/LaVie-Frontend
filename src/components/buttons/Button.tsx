@@ -6,6 +6,7 @@ export default function Button(props: any){
     let [hover, setHover] = React.useState(0);
     return(
         <button 
+        disabled={props.disabled}
         className='buttonMain'
         style={{
             width: props.width ? props.width : '100px',
