@@ -92,11 +92,11 @@ function App() {
   let [newAccount, setNewAccount] = React.useState(0);
   let [loadingMessage, setLoadingMessage] = React.useState<string>('');
   
-  const itemsContractAddress =  '0xC768cA5bFe3522cDf2b32451a0b3d6f289dE0D3a';
-  const stakeManager = '0xDDd535Cac9BD6C61C50264Af72dbc65e33202ACB';
-  const accountsContractAddress = '0x16778bFB18c13C4284C3aa81A197c876b2fa426c';
-  const gameContractAddress = '0xAAA46aEBE702ef7e865a0b33Ecdaf5aEadAF76eE';
-  const billboardAddress = '0xF19Ea46af6C727C54FFB434162A58FA90b892467';
+  const itemsContractAddress =  '0x37648D0EBD005e850Abf8B19E8a13851A8C33DDA';
+  const stakeManager = '0xE23aC4DE86D3e87601b90aDE17c53c83a78f9114';
+  const accountsContractAddress = '0xe54b633140D829e69dB8a0c74d71F207E2efC850';
+  const gameContractAddress = '0xEA4C2425408312761f6b169Ca2CBa951e20Fc128';
+  const billboardAddress = '0x911b5Dfd510593dcBB8e3f4F3EDe3427D59bcb8C';
   const daiContractAddress = '0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa';
   const lavxAddress = '0x71b4f145617410ee50dc26d224d202e9278d71f1'
   
@@ -492,7 +492,7 @@ function App() {
   async function ApproveLavx(approveAmount:any){
     setLoadingMessage('Approving Lavx . . . ');
     const LavxApprove = function(resolve:any,reject:any) {
-      lavxtoken.methods.increaseAllowance(stakeManager, approveAmount).send({from:web3React.account}, function(err:any, res:any){
+      lavxtoken.methods.approve(stakeManager, approveAmount).send({from:web3React.account}, function(err:any, res:any){
         if(err){
           console.log("ERROR");
           console.log(err);
