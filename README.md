@@ -3,7 +3,7 @@
 # La Vie: A DeFi/NFT Yield Farming Game
 This project was built using Reactjs, Scaffold-ETH, Hardhat and Alchemy.\
 It uses decentralized services such as Skynet, IPFS (Proton Labs), Chainlink, Status, Textile.io, Superfluid.Finance,Compund and 88MPH.
-\ 
+
 # The Idea behind La Vie:
 La Vie is a prototype to test an idea that is unheard of outside of the Blockchain industry.\
 \
@@ -23,7 +23,7 @@ It incentivizes the player to be a "sticky" customer. As opposed to the current 
 relationship: the user purchases the game and the relationship is over.\
 Games requiring a subscription are more comparable. But even in these games it alienates users that can't\
 shed that subscription cost per month and thus limits the growth of the game's community.\
-\ 
+   
 
 
 # Getting Started with Create React App
