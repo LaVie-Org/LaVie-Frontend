@@ -22,7 +22,7 @@ to attract new players and new purchases (to attract deposits).\
 It incentivizes the player to be a "sticky" customer. As opposed to the current standard of a transactionnal\
 relationship: the user purchases the game and the relationship is over.\
 Games requiring a subscription are more comparable. But even in these games it alienates users that can't\
-shed that subscription cost per month and thus limits the growth of the game's community.\
+shed that subscription cost per month and thus limits the growth of the game's community.
    
 
 
