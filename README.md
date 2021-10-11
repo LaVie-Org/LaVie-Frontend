@@ -1,4 +1,30 @@
-[![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/CACK9M8VpATIuCAUEwNRtAPNlVZoIT9taJsYEgKngfRUgw)
+[![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/CABxnNNHwwPMXI0iQl2k-AE9yQZEdcacbWWs5G6nl8UmHw)
+
+# La Vie: A DeFi/NFT Yield Farming Game
+This project was built using Reactjs, Scaffold-ETH, Hardhat and Alchemy.\
+It uses decentralized services such as Skynet, IPFS (Proton Labs), Chainlink, Status, Textile.io, Superfluid.Finance,Compund and 88MPH.
+
+# The Idea behind La Vie:
+La Vie is a prototype to test an idea that is unheard of outside of the Blockchain industry.\
+\
+Can you marry gaming with banking?\
+Can users interact with their banks as much as they interact with the games they play?\
+\
+This project allows users to put money off to the side to play La Vie.\
+It's similar to purchasing a Certificate of Deposit - with a twist: if you buy into it, you get to play this game.\
+All in game purchases would require the user to stake more money: to save more as opposed to spending more.\
+Gamified Finance doesn't only have to be for the aggressive, non-risk averse individuals. \
+\
+While users earn a yield on the amount they stake, the game developers themselves will also\
+earn a percentage of that yield for being the game managers. This makes for a better relationship\
+between gamers and developers. It incentivizes the game developers to continuously make gaming content\
+to attract new players and new purchases (to attract deposits).\
+It incentivizes the player to be a "sticky" customer. As opposed to the current standard of a transactionnal\
+relationship: the user purchases the game and the relationship is over.\
+Games requiring a subscription are more comparable. But even in these games it alienates users that can't\
+shed that subscription cost per month and thus limits the growth of the game's community.\
+
+
 
 # Getting Started with Create React App
 
