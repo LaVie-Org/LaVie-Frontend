@@ -510,8 +510,6 @@ function App() {
     } else {
 
     }
-    
-    
     setCurrentView(1);
     setLoadingScreen(1);
     if(accountType != 1){
