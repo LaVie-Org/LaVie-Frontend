@@ -528,7 +528,7 @@ function App() {
     setLoadingMessage('Creating a new Player Account . . .');
     let res;
     try {
-    let newPlayerRes = await GameContract.newPlayer(
+    let newPlayerRes = await gameContract.newPlayer(
       web3React.account,
       'ipfs://bafkreiauyyyqdtvh7hp6f5o7di43u537vjkqiuptfpjz7h2t3aqaekz74u',
       accountType,

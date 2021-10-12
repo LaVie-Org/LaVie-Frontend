@@ -1,4 +1,4 @@
-[![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/CAC8u6TXUYwlytqrWfGRBChnD_sOtLRAVFQYzl9bRqWdBw)
+[![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/CACYF-V9BfPr89hqUsoiAoZrtjI4d877ygbCHHPDvCFb6g)
 
 # La Vie: A DeFi/NFT Yield Farming Game
 This project was built using Reactjs, Scaffold-ETH, Hardhat and Alchemy.\
