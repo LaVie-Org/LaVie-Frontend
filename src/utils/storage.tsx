@@ -7,20 +7,15 @@ declare global {
     }
 }
 // See also https://docs.metamask.io/guide/rpc-api.html#permissions
-export async function storeState(web3:any){
+export async function storeState(web3:any, file:any, SET_CURRENT_TXN:any, SET_ERROR:any){
     await window.ethereum.enable();
     const provider = new providers.Web3Provider(window.ethereum);
     const wallet = provider.getSigner();
 
     const storage = await init(wallet);
 
-    const blob = new Blob(["Hello, world!"], { type: "text/plain" });
-    const file = new File([blob], "welcome.txt", {
-    type: "text/plain",
-    lastModified: new Date().getTime(),
-    });
-
     try {
+        SET_CURRENT_TXN(2);
         await storage.addDeposit();
     } catch(err) {
         console.log(err);
@@ -28,9 +23,18 @@ export async function storeState(web3:any){
 
     const { id, cid } = await storage.store(file);
 
-    const { request, deals } = await storage.status(id);
-    console.log(request.status_code);
-    console.log([deals]);
 
-    return cid;
+    try {
+        const { request, deals } = await storage.status(id);
+        console.log(request.status_code);
+        console.log([deals]);
+    } catch(error){
+        console.log('req and deals error.');
+    }
+
+    if(!cid){
+        SET_ERROR(1);
+    } else {
+        return cid;
+    }
 }

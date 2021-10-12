@@ -31,7 +31,7 @@ export default function Billboard(props: any){
     
     function updateTheBillboard(){
         if(submitReady){
-            props.updateBillboard(firstLine, secondLine, thirdLine, currentPrice + 1);
+            props.updateBillboard(firstLine, secondLine, thirdLine, parseInt(currentPrice) + 1);
         }
     }
     return(
@@ -81,7 +81,7 @@ export default function Billboard(props: any){
                                 <span style={{fontSize: '12px'}}>Must be less than 50 characters.</span>
                             </div>
                             <div className='bmcElement'>
-                                <label style={{textAlign:'center'}}>{currentPrice ? currentPrice : 0} LavX</label>
+                                <label style={{textAlign:'center'}}>You Pay: {currentPrice ? parseInt(currentPrice) + 1 : 1} LavX</label>
                             </div>
                             <Button onClick={() => updateTheBillboard()} disabled={!submitReady} title='Update Billboard' width='150px' minHeight='25px' fontSize='16px'/>
                         </div>

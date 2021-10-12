@@ -62,10 +62,17 @@ export default function Market(props:any){
         console.log("ItemID: " + randomItemNumber);
         return [randomItemNumber, rewardType];
     }
-    function ClaimReward(tier:any){
-        let loot = getRandomItemFromCrate(tier);
+    function ClaimReward(){
+        let loot = getRandomItemFromCrate(2);
         setRewardId(loot[0]);
         setRewardType(loot[1]);
+    }
+    function BagIt(){
+        if(rewardId){
+            props.playerRecievesItem(rewardId);
+        } else {
+            console.log('error')
+        }
     }
 
     return(
@@ -77,7 +84,7 @@ export default function Market(props:any){
                         <label>{2000} LaVx</label>
                     </div>
                     <div className='igmRight'>
-                        <Button disabled={props.userStatistics.cash > 2000 ? false : true} minHeight='50px' width='200px' title='Claim Reward' onClick={async () => setRewardId(await props.ClaimRewardFromContract())}/>
+                        <Button disabled={props.lavxWalletBal > 2000 ? false : true} minHeight='50px' width='200px' title='Claim Reward' onClick={async () => await ClaimReward()}/>
                         {props.lavxWalletBal > 2000 ? null : <label>You don't have enough funds to claim a reward. </label>}
                     </div>
                 </div>
@@ -100,7 +107,7 @@ export default function Market(props:any){
                         <span style={{color: '#FED766', backgroundColor:'black'}}>GENERIC</span>
                     }
                     
-                    <Button title='Bag It' onClick={() => resetReward()}/>
+                    <Button title='Bag It' onClick={() => BagIt()}/>
                 </ModalSmall>
             </div> : null
             }   

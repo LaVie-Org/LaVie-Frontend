@@ -10,3 +10,22 @@
     align-items: center;
     background-color: #161214;
 }
+.loadingContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loadingContent > div {
+    height: 100px;
+    
+}
+.loadingContent > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loadingContent >  .error {
+    color: rgb(151, 14, 14);
+}

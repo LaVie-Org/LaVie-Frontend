@@ -49,7 +49,7 @@ export default function Level(props: any){
                         'height': '90%'
                     }}></div>
                 </div>
-                <span style={span}>{props.currXp} / {props.endXp}</span>
+                <span style={span}>{parseInt(props.currXp)} / {props.endXp}</span>
             </div>
             
         </div>
